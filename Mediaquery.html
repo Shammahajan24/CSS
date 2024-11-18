@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            height: 200px;
+            background-color: brown;
+        }
+        @media (max-width:600px){
+         h1{
+            content: "Hello:";
+            background-color: yellow;
+         }
+         h1:hover::before {
+            content: "25 din mai paisa double!!!!!!!!";
+            color: rgb(54, 45, 216);
+        }
+         h1:hover::after {
+            content: "Jor jor se bolke logo ko scheme bata de";
+            color: rgb(54, 45, 216);
+        }
+    }   
+    </style>
+</head>
+<body>
+    <h1>Mere pass ek scheme hai!!!</h1>
+</body>
+</html>
